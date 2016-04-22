@@ -58,9 +58,9 @@ module.exports = {
           'sass-resources'
         ]
       },
-      // { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
-      // { test: /\.(ttf|eot)$/, loader: 'file' },
-      // { test: /\.(jpe?g|png|gif|svg|ico)$/, loader: 'url?limit=10000' },
+      { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
+      { test: /\.(ttf|eot)$/, loader: 'file' },
+      { test: /\.(jpe?g|png|gif|svg|ico)$/, loader: 'url?limit=10000' },
 
       // React is necessary for the client rendering:
       { test: require.resolve('react'), loader: 'expose?React' },

@@ -19,7 +19,7 @@ config.output = {
 
   // this file is served directly by webpack
   filename: '[name]-bundle.js',
-  path: __dirname,
+  path: __dirname
 }
 config.plugins.unshift(
   new webpack.HotModuleReplacementPlugin(),
@@ -42,7 +42,7 @@ config.module.loaders.push(
               {
                 transform: 'react-transform-hmr',
                 imports: ['react'],
-                locals: ['module'],
+                locals: ['module']
               },
             ],
           },
@@ -55,7 +55,7 @@ config.module.loaders.push(
     loaders: [
       'style',
       'css?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]',
-      'postcss',
+      'postcss'
     ],
   },
   {
@@ -65,7 +65,7 @@ config.module.loaders.push(
       'css?modules&importLoaders=3&localIdentName=[name]__[local]__[hash:base64:5]',
       'postcss',
       'sass',
-      'sass-resources',
+      'sass-resources'
     ],
   }
 )

@@ -28,7 +28,7 @@
     "test:debug": "npm run test -- --debug-brk",
     "start": "node server-express.js",
     "build:client": "NODE_ENV=production webpack --config webpack.client.rails.build.config.js && npm run copyknsfiles",
-    "copyknsfiles": "cp -rf app/assets/webpack/*.woff* app/assets/webpack/*.svg app/assets/webpack/*.ttf app/assets/webpack/*.eot* app/assets/webpack/*.png public/assets",
+    "copyknsfiles": "mkdir public/assets && cp -rf app/assets/webpack/*.woff* app/assets/webpack/*.svg app/assets/webpack/*.ttf app/assets/webpack/*.eot* app/assets/webpack/*.png public/assets",
     "build:server": "NODE_ENV=production webpack --config webpack.server.rails.build.config.js",
     "build:dev:client": "babel-node server-rails-hot.js",
     "build:dev:server": "webpack -w --config webpack.server.rails.build.config.js",

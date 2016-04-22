@@ -1,3 +1,4 @@
+
 ## Spark Starter Kit
 
 [![Circle CI](https://circleci.com/gh/spark-solutions/spark-starter-kit.svg?style=svg)](https://circleci.com/gh/spark-solutions/spark-starter-kit) [![Code Climate](https://codeclimate.com/repos/567faf288109dc0e7000368c/badges/aaaf9d43a643ff68fddc/gpa.svg)](https://codeclimate.com/repos/567faf288109dc0e7000368c/feed) [![Test Coverage](https://codeclimate.com/repos/567faf288109dc0e7000368c/badges/aaaf9d43a643ff68fddc/coverage.svg)](https://codeclimate.com/repos/567faf288109dc0e7000368c/coverage)
@@ -12,7 +13,7 @@ This is a starting point for all Spree/Rails related projects at Spark Solutions
  - haml as a template engine for rails views
 
 Heavily inspired by [react-webpack-rails-tutorial](https://github.com/shakacode/react-webpack-rails-tutorial/)
- 
+
 
 ## Installation
 
@@ -65,3 +66,6 @@ We are passionate about open source software.
 We are [available for hire][spark].
 
 [spark]:http://sparksolutions.co?utm_source=github
+=======
+# shopshop
+Playing around with React implementation of commerce sites
